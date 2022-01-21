@@ -1,0 +1,147 @@
+/* * {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: normal;
+} */
+
+.body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.header_flex, .footer_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    background-color: rgba(255, 114, 67, .27);
+    padding: 38px 0 48px;
+    height: 40px;
+} 
+
+.footer {
+    background-color: rgba(255, 114, 67, .27);
+    padding: 30px 0 30px;
+    height: 50px;
+} 
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px auto 80px;
+}
+
+.container {
+    max-width: 1070px; 
+    margin: 0 auto;
+}
+
+.nav {
+
+}
+
+.nav_li {
+    display: inline-block;
+}
+
+.nav_li:not(:first-of-type){
+    margin-left: 50px;
+}
+
+.nav_link {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.468947px;
+    color: #696871;
+    text-decoration: none;
+}
+
+.nav_link:hover{
+    color: black;
+    transition: 300ms;
+}
+
+.button{
+    height: 50px;
+    width: 150px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.531474px;
+    color: #FFFFFF;
+
+    cursor: pointer;
+
+    border: none;
+    border-radius: 10px;
+}
+
+.button_orange{
+    background: #FF7143;
+}
+
+.button_orange:hover{
+    background: #d4542a;
+    transition: 500ms;  
+}
+
+
+.about_title{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 77px;
+    letter-spacing: -2.50105px;
+    color: #19191B;
+    max-width: 470px;
+    margin-bottom: 30px;
+}
+
+.about_text{
+    font-family: Mulish;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.625263px;  
+    color: #696871;
+    max-width: 490px;
+    margin-bottom: 50px;
+}
+
+.button_violet{
+    background: #5454D4;
+}
+
+.button_transparent{
+    background: none;
+    color: #5454D4;
+    border: 1px solid #5454D4;
+    margin-left: 35px;
+}
+
+.button_violet:hover{
+    background: #1d34b6;
+    transition: 500ms;  
+}
+
+.button_transparent:hover{
+    background: #d1eaf8;
+    transition: 500ms;  
+}
+
+.future{
+    padding: 53px 0;
+}
